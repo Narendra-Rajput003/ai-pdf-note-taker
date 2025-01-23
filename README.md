@@ -1,45 +1,44 @@
-# AI-PDF-Note-Taker
+# AI PDF Note Taker
 
-This project is an AI-powered PDF note-taker. It allows users to upload PDF documents, extract text, and generate notes using AI.
+## Project Overview
+AI PDF Note Taker is a web application designed to help users take notes on PDF documents using AI-powered features. It leverages modern web technologies to provide a seamless and efficient note-taking experience.
 
 ## Features
+- AI-powered note-taking
+- PDF parsing and viewing
+- User authentication
+- Dashboard for managing notes
+- Responsive design
+- Real-time collaboration
+- Dark mode support
 
-- Upload PDF documents
-- AI-powered text extraction
-- Note generation and summarization
-- Real-time collaboration (coming soon)
-
-## Technology Stack
-
-- Next.js
-- React
-- Tailwind CSS
-- Convex
-- Langchain
-- Google Generative AI
+## Technologies Used
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Clerk**: User authentication and management.
+- **LangChain**: AI and machine learning integration.
+- **Axios**: Promise-based HTTP client for the browser and Node.js.
+- **Radix UI**: Accessible, unstyled UI components for building high-quality design systems and web apps.
+- **Tiptap**: A headless, framework-agnostic text editor.
 
 ## Installation
+To install the dependencies, run:
+```bash
+npm install
+```
 
-1. Clone the repository:
-   ```bash
-   git clone [repository URL]
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+## Scripts
+- `npm run dev`: Start the development server
+- `npm run build`: Build the application for production
+- `npm start`: Start the production server
+- `npm run lint`: Run the linter
 
-## Run Commands
+- `@types/node`
+- `@types/react`
+- `postcss`
+- `tailwindcss`
+- `typescript`
 
-- `npm run dev`: Starts the development server.
-- `npm run build`: Builds the application for production.
-- `npm run start`: Starts the production server.
-- `npm run lint`: Runs the linter.
-
-
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-
+## License
+This project is licensed under the MIT License.
