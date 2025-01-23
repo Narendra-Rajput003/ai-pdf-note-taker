@@ -1,4 +1,4 @@
-import SideBar from "./_components/SideBar";
+import SideBar from "./_components/SideBar.js";
 import React from "react";
 import Header from "./_components/Header";
 
